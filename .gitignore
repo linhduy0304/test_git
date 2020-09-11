@@ -124,7 +124,7 @@ buck-out/
 *.jsbundle
 # package-lock.json
 .vscode/
-.duy/
+duy/
 
 # react-native-config codegen
 ios/react-native-config.xcconfig
