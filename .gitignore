@@ -1,0 +1,134 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/*
+!node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+#*.keystore
+*.framework
+
+*-bat
+
+# Pod folder
+*/Pods/*
+# !Pods.xcodeproj
+*.lock
+!Podfile.lock
+*.android.bundle.*
+
+# Library fix
+# Fix record video with front camera
+# !node_modules/react-native-camera/
+# node_modules/react-native-camera/*
+# !node_modules/react-native-camera/ios/
+# node_modules/react-native-camera/ios/*
+# !node_modules/react-native-camera/ios/RN
+# node_modules/react-native-camera/ios/RN/*
+# !node_modules/react-native-camera/ios/RN/RNCamera.m
+#  React/Views/RCTRefreshControl.m
+
+# Fix library google play service version
+# !node_modules/react-native-camera/android/
+# node_modules/react-native-camera/android/*
+# !node_modules/react-native-camera/android/build.gradle
+
+# Fix video orientation ios
+# !node_modules/react-native-video/
+# node_modules/react-native-video/*
+# !node_modules/react-native-video/ios/
+# node_modules/react-native-video/ios/*
+# !node_modules/react-native-video/ios/RCTVideo.m
+
+# Fix crash youtube ios > 12
+# !node_modules/react-native-youtube/
+# node_modules/react-native-youtube/*
+# !node_modules/react-native-youtube/YTPlayerView/
+# !node_modules/react-native-youtube/RCTYouTube*
+
+# For agora lib
+# !node_modules/react-native-agora/
+# node_modules/react-native-agora/*
+# !node_modules/react-native-agora/ios/
+# node_modules/react-native-agora/ios/*
+# !node_modules/react-native-agora/ios/RCTAgora.xcodeproj
+
+# For refresh flatlist
+# !node_modules/react-native/
+# node_modules/react-native/*
+# !node_modules/react-native/React/
+# node_modules/react-native/React/*
+# !node_modules/react-native/React/Views/
+# node_modules/react-native/React/Views/*
+# !node_modules/react-native/React/Views/RCTRefreshControl.m
+# !node_modules/react-native/React/Base/
+# node_modules/react-native/React/Base/*
+# !node_modules/react-native/React/Base/RCTModuleMethod.mm
+
+# Fix Chinese region callkit
+# !node_modules/react-native-callkeep/
+# node_modules/react-native-callkeep/*
+# !node_modules/react-native-callkeep/index.js
+# !node_modules/react-native-callkeep/ios/
+# node_modules/react-native-callkeep/ios/*
+# !node_modules/react-native-callkeep/ios/RNCallKeep/
+# node_modules/react-native-callkeep/ios/RNCallKeep/*
+# !node_modules/react-native-callkeep/ios/RNCallKeep/RNCallKeep.m
+
+# Fix copyAssetsVideoIOS RNFS
+# !node_modules/react-native-fs/
+# node_modules/react-native-fs/*
+# !node_modules/react-native-fs/RNFSManager.m
+
+# fastlane
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+# package-lock.json
+.vscode/
+.duy/
+
+# react-native-config codegen
+ios/react-native-config.xcconfig
+ios/envfile
+*.cmd
+*-cmd
+patch/*
